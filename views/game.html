@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Typeracer</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/game.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Roboto+Condensed&display=swap" rel="stylesheet">
+    <script type="module" src="js/game.js"></script>
+    <script type="module" src="js/viewControls.js"></script>
+    <!-- Socket.IO -->
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="full-page-text-container"><div class="full-page-text"></div></div>
+        <div class="countdown"></div>
+        <div class="race-container">
+            <div class="commentators">
+                <div class="comment-message">
+                    <div class="comment-message-triangle"></div>
+                </div>
+                <div class="commentators-image">
+                    <img src="img/commentators.png" alt="Commentators">
+                </div>
+            </div>
+            <table class="race-participants"><tbody></tbody></table>
+            <div class="race-text"></div>
+            <div class="current-char"></div>
+            <div class="race-timer"></div>
+        </div>
+
+    </div>
+</body>
+</html>
